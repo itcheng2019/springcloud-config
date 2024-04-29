@@ -1,5 +1,5 @@
 data:
   env: prod
   user:
-    username: config-prod-username-edit
-    password: config-prod-password-edit
+    username: config-prod-username
+    password: config-prod-password
