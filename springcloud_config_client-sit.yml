@@ -1,0 +1,6 @@
+data:
+  branch: dev
+  env: sit
+  user:
+    username: springcloud-config-sit-username
+    password: springcloud-config-sit-password
