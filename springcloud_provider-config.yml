@@ -1,0 +1,36 @@
+
+# pre环境时端口号为10002
+---
+server:
+  port: 10002
+
+spring:
+  profiles: pre
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/t_springcloud_pre?characterEncoding=utf8
+    username: root
+    password: root
+  #eureka服务的名称
+  application:
+    name: springcloud.config.provider.pre
+
+
+# prod环境时端口号为10003
+---
+server:
+  port: 10003
+
+spring:
+  profiles: prod
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/t_springcloud_prod?characterEncoding=utf8
+    username: root
+    password: root
+  #eureka服务的名称
+  application:
+    name: springcloud.config.provider.prod
+

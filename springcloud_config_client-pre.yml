@@ -1,0 +1,6 @@
+data:
+  branch: release
+  env: pre
+  user:
+    username: springcloud-config-pre-username
+    password: springcloud-config-pre-password

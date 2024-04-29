@@ -1,0 +1,6 @@
+data:
+  branch: release
+  env: prod
+  user:
+    username: springcloud-config-prod-username
+    password: springcloud-config-prod-password
